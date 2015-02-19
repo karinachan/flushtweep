@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<title>Hello from Flask</title>
+
+</head>
+<body>
+  
+
+{% if name %}
+  <h1>Hello {{ name }}. Here are some of your most recent tweets!</h1>
+{% else %}
+  <h1>Hello! Here are some of your most recent tweets!</h1>
+{% endif %}
+
+
+    {% for key, val in seq.iteritems() %}
+      <!--  this might be a questionable move to make these forms...-->
+      <form>
+        <input type="button" name="{{ key }}" value="{{ val }}"><br>
+
+      </form>
+    {% endfor %}
+
+
+
+</body>
+</html>
