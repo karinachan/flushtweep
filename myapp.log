@@ -631,3 +631,1034 @@
 03/09/2016 09:46:03 PM *******************************
 
 03/09/2016 09:46:03 PM 127.0.0.1 - - [09/Mar/2016 21:46:03] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 10:36:42 PM *******************************
+
+03/09/2016 10:36:42 PM 127.0.0.1 - - [09/Mar/2016 22:36:42] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 10:58:20 PM *******************************
+
+03/09/2016 10:58:20 PM 127.0.0.1 - - [09/Mar/2016 22:58:20] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:00:15 PM *******************************
+
+03/09/2016 11:00:15 PM 127.0.0.1 - - [09/Mar/2016 23:00:15] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:12:13 PM *******************************
+
+03/09/2016 11:12:13 PM 127.0.0.1 - - [09/Mar/2016 23:12:13] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:12:18 PM 127.0.0.1 - - [09/Mar/2016 23:12:18] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:12:18 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:12:18 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:12:18 PM Including body in call to sign: False
+03/09/2016 11:12:18 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'39480025821322176291457583138'), (u'oauth_timestamp', u'1457583138'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:12:18 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=39480025821322176291457583138&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457583138&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:12:18 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:12:18 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D39480025821322176291457583138%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457583138%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:12:18 PM Signature: WAw1IJUbppHBcq96vC1ZYbYL39w=
+03/09/2016 11:12:18 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:12:18 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="39480025821322176291457583138", oauth_timestamp="1457583138", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="WAw1IJUbppHBcq96vC1ZYbYL39w%3D"'}
+03/09/2016 11:12:18 PM Updated body: None
+03/09/2016 11:12:18 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:12:19 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:12:19 PM *******************************
+
+03/09/2016 11:12:19 PM 127.0.0.1 - - [09/Mar/2016 23:12:19] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:14:39 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:17:27 PM *******************************
+
+03/09/2016 11:17:27 PM 127.0.0.1 - - [09/Mar/2016 23:17:27] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:17:39 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:17:42 PM *******************************
+
+03/09/2016 11:17:42 PM 127.0.0.1 - - [09/Mar/2016 23:17:42] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:19:01 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:19:40 PM *******************************
+
+03/09/2016 11:19:40 PM 127.0.0.1 - - [09/Mar/2016 23:19:40] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:19:49 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:19:54 PM *******************************
+
+03/09/2016 11:19:54 PM 127.0.0.1 - - [09/Mar/2016 23:19:54] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:20:31 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:20:34 PM *******************************
+
+03/09/2016 11:20:34 PM 127.0.0.1 - - [09/Mar/2016 23:20:34] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:20:41 PM PARAMS: {'q': 'trump', 'rpp': '200'}
+03/09/2016 11:20:41 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:20:41 PM Including body in call to sign: False
+03/09/2016 11:20:41 PM Collected params: [(u'q', u'trump'), (u'rpp', u'200'), (u'oauth_nonce', u'178506514297124408081457583641'), (u'oauth_timestamp', u'1457583641'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:20:41 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=178506514297124408081457583641&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457583641&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=200
+03/09/2016 11:20:41 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:20:41 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D178506514297124408081457583641%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457583641%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D200
+03/09/2016 11:20:41 PM Signature: X+aJxzLV6GgPMWZ0Ov4VvNGk3tQ=
+03/09/2016 11:20:41 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=200
+03/09/2016 11:20:41 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="178506514297124408081457583641", oauth_timestamp="1457583641", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="X%2BaJxzLV6GgPMWZ0Ov4VvNGk3tQ%3D"'}
+03/09/2016 11:20:41 PM Updated body: None
+03/09/2016 11:20:41 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:20:41 PM "GET /1.1/search/tweets.json?q=trump&rpp=200 HTTP/1.1" 200 58885
+03/09/2016 11:20:41 PM 127.0.0.1 - - [09/Mar/2016 23:20:41] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:20:42 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:20:42 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:20:42 PM Including body in call to sign: False
+03/09/2016 11:20:42 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'32357490121563749531457583642'), (u'oauth_timestamp', u'1457583642'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:20:42 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=32357490121563749531457583642&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457583642&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:20:42 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:20:42 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D32357490121563749531457583642%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457583642%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:20:42 PM Signature: 8eH0exd0OFwjHnd+0b4F2EYsRms=
+03/09/2016 11:20:42 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:20:42 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="32357490121563749531457583642", oauth_timestamp="1457583642", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="8eH0exd0OFwjHnd%2B0b4F2EYsRms%3D"'}
+03/09/2016 11:20:42 PM Updated body: None
+03/09/2016 11:20:42 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:20:42 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:20:42 PM *******************************
+
+03/09/2016 11:20:42 PM 127.0.0.1 - - [09/Mar/2016 23:20:42] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:21:06 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:21:10 PM *******************************
+
+03/09/2016 11:21:10 PM 127.0.0.1 - - [09/Mar/2016 23:21:10] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:21:21 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:21:23 PM *******************************
+
+03/09/2016 11:21:23 PM 127.0.0.1 - - [09/Mar/2016 23:21:23] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:21:49 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:21:53 PM *******************************
+
+03/09/2016 11:21:53 PM 127.0.0.1 - - [09/Mar/2016 23:21:53] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:22:02 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:22:40 PM *******************************
+
+03/09/2016 11:22:40 PM 127.0.0.1 - - [09/Mar/2016 23:22:40] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:22:55 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:24:16 PM *******************************
+
+03/09/2016 11:24:16 PM 127.0.0.1 - - [09/Mar/2016 23:24:16] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:24:23 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:24:23 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:24:23 PM Including body in call to sign: False
+03/09/2016 11:24:23 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'155078975523691571401457583863'), (u'oauth_timestamp', u'1457583863'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:24:23 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=155078975523691571401457583863&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457583863&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:24:23 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:24:23 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D155078975523691571401457583863%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457583863%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:24:23 PM Signature: Vew+T8pKgY432VBBo57ZkiVEaQE=
+03/09/2016 11:24:23 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:24:23 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="155078975523691571401457583863", oauth_timestamp="1457583863", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Vew%2BT8pKgY432VBBo57ZkiVEaQE%3D"'}
+03/09/2016 11:24:23 PM Updated body: None
+03/09/2016 11:24:23 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:24:23 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 66310
+03/09/2016 11:24:23 PM 127.0.0.1 - - [09/Mar/2016 23:24:23] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:24:23 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:24:23 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:24:23 PM Including body in call to sign: False
+03/09/2016 11:24:23 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'41122864312412623801457583863'), (u'oauth_timestamp', u'1457583863'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:24:23 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=41122864312412623801457583863&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457583863&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:24:23 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:24:23 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D41122864312412623801457583863%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457583863%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:24:23 PM Signature: ANhzYHBvB1q7WuSSnKDIacgrBzc=
+03/09/2016 11:24:23 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:24:23 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="41122864312412623801457583863", oauth_timestamp="1457583863", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="ANhzYHBvB1q7WuSSnKDIacgrBzc%3D"'}
+03/09/2016 11:24:23 PM Updated body: None
+03/09/2016 11:24:23 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:24:24 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:24:24 PM *******************************
+
+03/09/2016 11:24:24 PM 127.0.0.1 - - [09/Mar/2016 23:24:24] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:24:36 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:24:39 PM *******************************
+
+03/09/2016 11:24:39 PM 127.0.0.1 - - [09/Mar/2016 23:24:39] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:24:49 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:24:52 PM *******************************
+
+03/09/2016 11:24:52 PM 127.0.0.1 - - [09/Mar/2016 23:24:52] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:25:16 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:25:19 PM *******************************
+
+03/09/2016 11:25:19 PM 127.0.0.1 - - [09/Mar/2016 23:25:19] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:26:10 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:26:14 PM *******************************
+
+03/09/2016 11:26:14 PM 127.0.0.1 - - [09/Mar/2016 23:26:14] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:26:32 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:26:38 PM *******************************
+
+03/09/2016 11:26:38 PM 127.0.0.1 - - [09/Mar/2016 23:26:38] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:26:50 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:26:52 PM *******************************
+
+03/09/2016 11:26:52 PM 127.0.0.1 - - [09/Mar/2016 23:26:52] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:27:12 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:27:50 PM *******************************
+
+03/09/2016 11:27:50 PM 127.0.0.1 - - [09/Mar/2016 23:27:50] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:08 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:28:11 PM *******************************
+
+03/09/2016 11:28:11 PM 127.0.0.1 - - [09/Mar/2016 23:28:11] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:13 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:28:13 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:13 PM Including body in call to sign: False
+03/09/2016 11:28:13 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'17688121330419086031457584093'), (u'oauth_timestamp', u'1457584093'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:13 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=17688121330419086031457584093&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584093&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:28:13 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:28:13 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D17688121330419086031457584093%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584093%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:28:13 PM Signature: Lw3yiOU7w0pFnBFS7/2PPXBgGz4=
+03/09/2016 11:28:13 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:28:13 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="17688121330419086031457584093", oauth_timestamp="1457584093", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Lw3yiOU7w0pFnBFS7%2F2PPXBgGz4%3D"'}
+03/09/2016 11:28:13 PM Updated body: None
+03/09/2016 11:28:14 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:14 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 68480
+03/09/2016 11:28:14 PM 127.0.0.1 - - [09/Mar/2016 23:28:14] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:28:15 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:28:15 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:15 PM Including body in call to sign: False
+03/09/2016 11:28:15 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'66922885627492789901457584095'), (u'oauth_timestamp', u'1457584095'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:15 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=66922885627492789901457584095&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584095&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:28:15 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:28:15 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D66922885627492789901457584095%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584095%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:28:15 PM Signature: xiIMi8irTeFlmpNkAbDyPfXYfo4=
+03/09/2016 11:28:15 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:28:15 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="66922885627492789901457584095", oauth_timestamp="1457584095", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="xiIMi8irTeFlmpNkAbDyPfXYfo4%3D"'}
+03/09/2016 11:28:15 PM Updated body: None
+03/09/2016 11:28:15 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:15 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:28:15 PM *******************************
+
+03/09/2016 11:28:15 PM 127.0.0.1 - - [09/Mar/2016 23:28:15] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:17 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:28:17 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:17 PM Including body in call to sign: False
+03/09/2016 11:28:17 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'86269911609866385401457584097'), (u'oauth_timestamp', u'1457584097'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:17 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=86269911609866385401457584097&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584097&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:28:17 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:28:17 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D86269911609866385401457584097%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584097%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:28:17 PM Signature: jO+1dxnkc9yOGCX28O43ZA1G7F4=
+03/09/2016 11:28:17 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:28:17 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="86269911609866385401457584097", oauth_timestamp="1457584097", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="jO%2B1dxnkc9yOGCX28O43ZA1G7F4%3D"'}
+03/09/2016 11:28:17 PM Updated body: None
+03/09/2016 11:28:17 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:17 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 68480
+03/09/2016 11:28:17 PM 127.0.0.1 - - [09/Mar/2016 23:28:17] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:28:17 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:28:17 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:17 PM Including body in call to sign: False
+03/09/2016 11:28:17 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'103881905310260471457584097'), (u'oauth_timestamp', u'1457584097'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:17 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=103881905310260471457584097&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584097&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:28:17 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:28:17 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D103881905310260471457584097%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584097%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:28:17 PM Signature: nR1aCsIQb7UfV/9w3pi/1STf34M=
+03/09/2016 11:28:17 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:28:17 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="103881905310260471457584097", oauth_timestamp="1457584097", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="nR1aCsIQb7UfV%2F9w3pi%2F1STf34M%3D"'}
+03/09/2016 11:28:17 PM Updated body: None
+03/09/2016 11:28:17 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:18 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:28:18 PM *******************************
+
+03/09/2016 11:28:18 PM 127.0.0.1 - - [09/Mar/2016 23:28:18] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:21 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:28:21 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:21 PM Including body in call to sign: False
+03/09/2016 11:28:21 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'20027979651475014291457584101'), (u'oauth_timestamp', u'1457584101'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:21 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=20027979651475014291457584101&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584101&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:28:21 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:28:21 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D20027979651475014291457584101%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584101%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:28:21 PM Signature: p0ZAWVr4P9X+pETUN6bsOJo/h5M=
+03/09/2016 11:28:21 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:28:21 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="20027979651475014291457584101", oauth_timestamp="1457584101", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="p0ZAWVr4P9X%2BpETUN6bsOJo%2Fh5M%3D"'}
+03/09/2016 11:28:21 PM Updated body: None
+03/09/2016 11:28:21 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:21 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 68480
+03/09/2016 11:28:21 PM 127.0.0.1 - - [09/Mar/2016 23:28:21] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:28:21 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:28:21 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:28:21 PM Including body in call to sign: False
+03/09/2016 11:28:21 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'135608515703688206891457584101'), (u'oauth_timestamp', u'1457584101'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:28:21 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=135608515703688206891457584101&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584101&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:28:21 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:28:21 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D135608515703688206891457584101%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584101%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:28:21 PM Signature: HS9EJRWOLiJTtrpIx2h9L6eYfys=
+03/09/2016 11:28:21 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:28:21 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="135608515703688206891457584101", oauth_timestamp="1457584101", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="HS9EJRWOLiJTtrpIx2h9L6eYfys%3D"'}
+03/09/2016 11:28:21 PM Updated body: None
+03/09/2016 11:28:21 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:28:22 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:28:22 PM *******************************
+
+03/09/2016 11:28:22 PM 127.0.0.1 - - [09/Mar/2016 23:28:22] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:31 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:28:34 PM *******************************
+
+03/09/2016 11:28:34 PM 127.0.0.1 - - [09/Mar/2016 23:28:34] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:28:49 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:29:01 PM *******************************
+
+03/09/2016 11:29:01 PM 127.0.0.1 - - [09/Mar/2016 23:29:01] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:29:07 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:29:07 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:29:07 PM Including body in call to sign: False
+03/09/2016 11:29:07 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'104515202759603585581457584147'), (u'oauth_timestamp', u'1457584147'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:29:07 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=104515202759603585581457584147&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584147&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:29:07 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:29:07 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D104515202759603585581457584147%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584147%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:29:07 PM Signature: Y2OLkVk5Q3KF7XMK+MGafLwdbaI=
+03/09/2016 11:29:07 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:29:07 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="104515202759603585581457584147", oauth_timestamp="1457584147", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Y2OLkVk5Q3KF7XMK%2BMGafLwdbaI%3D"'}
+03/09/2016 11:29:07 PM Updated body: None
+03/09/2016 11:29:07 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:29:07 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 55083
+03/09/2016 11:29:08 PM 127.0.0.1 - - [09/Mar/2016 23:29:08] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:29:08 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:29:08 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:29:08 PM Including body in call to sign: False
+03/09/2016 11:29:08 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'103667905476132143631457584148'), (u'oauth_timestamp', u'1457584148'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:29:08 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=103667905476132143631457584148&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584148&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:29:08 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:29:08 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D103667905476132143631457584148%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584148%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:29:08 PM Signature: rsCySyKtBBPK531X3j0PdieVZg8=
+03/09/2016 11:29:08 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:29:08 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="103667905476132143631457584148", oauth_timestamp="1457584148", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="rsCySyKtBBPK531X3j0PdieVZg8%3D"'}
+03/09/2016 11:29:08 PM Updated body: None
+03/09/2016 11:29:08 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:29:08 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:29:08 PM *******************************
+
+03/09/2016 11:29:08 PM 127.0.0.1 - - [09/Mar/2016 23:29:08] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:29:32 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:29:44 PM *******************************
+
+03/09/2016 11:29:44 PM 127.0.0.1 - - [09/Mar/2016 23:29:44] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:29:57 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:30:03 PM *******************************
+
+03/09/2016 11:30:03 PM 127.0.0.1 - - [09/Mar/2016 23:30:03] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:30:12 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:30:14 PM *******************************
+
+03/09/2016 11:30:14 PM 127.0.0.1 - - [09/Mar/2016 23:30:14] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:30:41 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:31:01 PM *******************************
+
+03/09/2016 11:31:01 PM 127.0.0.1 - - [09/Mar/2016 23:31:01] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:19 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:31:21 PM *******************************
+
+03/09/2016 11:31:21 PM 127.0.0.1 - - [09/Mar/2016 23:31:21] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:27 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:31:29 PM *******************************
+
+03/09/2016 11:31:29 PM 127.0.0.1 - - [09/Mar/2016 23:31:29] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:32 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:31:32 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:31:32 PM Including body in call to sign: False
+03/09/2016 11:31:32 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'127969930017485100141457584292'), (u'oauth_timestamp', u'1457584292'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:31:32 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=127969930017485100141457584292&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584292&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:31:32 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:31:32 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D127969930017485100141457584292%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584292%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:31:32 PM Signature: RvyGqZdx1zTNvfHDBJ0XXFN44tM=
+03/09/2016 11:31:32 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:31:32 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="127969930017485100141457584292", oauth_timestamp="1457584292", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="RvyGqZdx1zTNvfHDBJ0XXFN44tM%3D"'}
+03/09/2016 11:31:32 PM Updated body: None
+03/09/2016 11:31:32 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:31:32 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 73612
+03/09/2016 11:31:32 PM 127.0.0.1 - - [09/Mar/2016 23:31:32] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:31:32 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:31:32 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:31:32 PM Including body in call to sign: False
+03/09/2016 11:31:32 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'177653135145891687531457584292'), (u'oauth_timestamp', u'1457584292'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:31:32 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=177653135145891687531457584292&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584292&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:31:32 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:31:32 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D177653135145891687531457584292%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584292%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:31:32 PM Signature: qDm6TvM6C9Kp5hGcCAv5el2IfvY=
+03/09/2016 11:31:32 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:31:32 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="177653135145891687531457584292", oauth_timestamp="1457584292", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="qDm6TvM6C9Kp5hGcCAv5el2IfvY%3D"'}
+03/09/2016 11:31:32 PM Updated body: None
+03/09/2016 11:31:32 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:31:32 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:31:32 PM *******************************
+
+03/09/2016 11:31:32 PM 127.0.0.1 - - [09/Mar/2016 23:31:32] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:34 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:31:34 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:31:34 PM Including body in call to sign: False
+03/09/2016 11:31:34 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'17566432147390192931457584294'), (u'oauth_timestamp', u'1457584294'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:31:34 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=17566432147390192931457584294&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584294&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:31:34 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:31:34 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D17566432147390192931457584294%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584294%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:31:34 PM Signature: 3DA8RFK6Am/4pSzuFI2eTGdpLFE=
+03/09/2016 11:31:34 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:31:34 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="17566432147390192931457584294", oauth_timestamp="1457584294", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="3DA8RFK6Am%2F4pSzuFI2eTGdpLFE%3D"'}
+03/09/2016 11:31:34 PM Updated body: None
+03/09/2016 11:31:34 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:31:35 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 73612
+03/09/2016 11:31:35 PM 127.0.0.1 - - [09/Mar/2016 23:31:35] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:31:35 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:31:35 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:31:35 PM Including body in call to sign: False
+03/09/2016 11:31:35 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'34774242322517890521457584295'), (u'oauth_timestamp', u'1457584295'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:31:35 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=34774242322517890521457584295&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584295&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:31:35 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:31:35 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D34774242322517890521457584295%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584295%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:31:35 PM Signature: 2vP/Vjtq5fudGrWHo3Kr8eNbrgY=
+03/09/2016 11:31:35 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:31:35 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="34774242322517890521457584295", oauth_timestamp="1457584295", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="2vP%2FVjtq5fudGrWHo3Kr8eNbrgY%3D"'}
+03/09/2016 11:31:35 PM Updated body: None
+03/09/2016 11:31:35 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:31:35 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:31:35 PM *******************************
+
+03/09/2016 11:31:35 PM 127.0.0.1 - - [09/Mar/2016 23:31:35] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:39 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:31:42 PM *******************************
+
+03/09/2016 11:31:42 PM 127.0.0.1 - - [09/Mar/2016 23:31:42] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:31:48 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:31:50 PM *******************************
+
+03/09/2016 11:31:50 PM 127.0.0.1 - - [09/Mar/2016 23:31:50] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:12 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:35:15 PM *******************************
+
+03/09/2016 11:35:15 PM 127.0.0.1 - - [09/Mar/2016 23:35:15] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:23 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:35:23 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:23 PM Including body in call to sign: False
+03/09/2016 11:35:23 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'86457643898302828311457584523'), (u'oauth_timestamp', u'1457584523'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:23 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=86457643898302828311457584523&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584523&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:35:23 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:35:23 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D86457643898302828311457584523%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584523%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:35:23 PM Signature: Iuzvxv9iXC8QYz8YKuJILJRmf2M=
+03/09/2016 11:35:23 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:35:23 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="86457643898302828311457584523", oauth_timestamp="1457584523", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Iuzvxv9iXC8QYz8YKuJILJRmf2M%3D"'}
+03/09/2016 11:35:23 PM Updated body: None
+03/09/2016 11:35:23 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:23 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 75503
+03/09/2016 11:35:23 PM 127.0.0.1 - - [09/Mar/2016 23:35:23] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:35:24 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:35:24 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:24 PM Including body in call to sign: False
+03/09/2016 11:35:24 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'157536283213701228561457584524'), (u'oauth_timestamp', u'1457584524'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:24 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=157536283213701228561457584524&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584524&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:35:24 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:35:24 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D157536283213701228561457584524%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584524%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:35:24 PM Signature: Vj7Haz36r2+NLzRzg/xumqUvqhY=
+03/09/2016 11:35:24 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:35:24 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="157536283213701228561457584524", oauth_timestamp="1457584524", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Vj7Haz36r2%2BNLzRzg%2FxumqUvqhY%3D"'}
+03/09/2016 11:35:24 PM Updated body: None
+03/09/2016 11:35:24 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:24 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:35:24 PM *******************************
+
+03/09/2016 11:35:24 PM 127.0.0.1 - - [09/Mar/2016 23:35:24] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:26 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:35:26 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:26 PM Including body in call to sign: False
+03/09/2016 11:35:26 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'72129366715529249781457584526'), (u'oauth_timestamp', u'1457584526'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:26 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=72129366715529249781457584526&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584526&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:35:26 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:35:26 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D72129366715529249781457584526%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584526%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:35:26 PM Signature: RNHkH7HOpNudfR0XyGancRASYPY=
+03/09/2016 11:35:26 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:35:26 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="72129366715529249781457584526", oauth_timestamp="1457584526", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="RNHkH7HOpNudfR0XyGancRASYPY%3D"'}
+03/09/2016 11:35:26 PM Updated body: None
+03/09/2016 11:35:26 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:26 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 75503
+03/09/2016 11:35:27 PM 127.0.0.1 - - [09/Mar/2016 23:35:27] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:35:27 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:35:27 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:27 PM Including body in call to sign: False
+03/09/2016 11:35:27 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'7051269217424585041457584527'), (u'oauth_timestamp', u'1457584527'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:27 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=7051269217424585041457584527&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584527&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:35:27 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:35:27 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D7051269217424585041457584527%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584527%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:35:27 PM Signature: CIqODmRxhLBtBqLIVV4iSCm8v0Q=
+03/09/2016 11:35:27 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:35:27 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="7051269217424585041457584527", oauth_timestamp="1457584527", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="CIqODmRxhLBtBqLIVV4iSCm8v0Q%3D"'}
+03/09/2016 11:35:27 PM Updated body: None
+03/09/2016 11:35:27 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:27 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:35:27 PM *******************************
+
+03/09/2016 11:35:27 PM 127.0.0.1 - - [09/Mar/2016 23:35:27] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:29 PM PARAMS: {'q': 'trump', 'rpp': '4'}
+03/09/2016 11:35:29 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:29 PM Including body in call to sign: False
+03/09/2016 11:35:29 PM Collected params: [(u'q', u'trump'), (u'rpp', u'4'), (u'oauth_nonce', u'161762577027745730771457584529'), (u'oauth_timestamp', u'1457584529'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:29 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=161762577027745730771457584529&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584529&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=4
+03/09/2016 11:35:29 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:35:29 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D161762577027745730771457584529%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584529%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D4
+03/09/2016 11:35:29 PM Signature: zuajBhue+Ot5Sci9sXYtWjNH/f4=
+03/09/2016 11:35:29 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=4
+03/09/2016 11:35:29 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="161762577027745730771457584529", oauth_timestamp="1457584529", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="zuajBhue%2BOt5Sci9sXYtWjNH%2Ff4%3D"'}
+03/09/2016 11:35:29 PM Updated body: None
+03/09/2016 11:35:29 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:29 PM "GET /1.1/search/tweets.json?q=trump&rpp=4 HTTP/1.1" 200 75503
+03/09/2016 11:35:29 PM 127.0.0.1 - - [09/Mar/2016 23:35:29] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:35:30 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:35:30 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:30 PM Including body in call to sign: False
+03/09/2016 11:35:30 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'60835696189344524251457584530'), (u'oauth_timestamp', u'1457584530'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:30 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=60835696189344524251457584530&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584530&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:35:30 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:35:30 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D60835696189344524251457584530%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584530%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:35:30 PM Signature: 5Nh54cAYJvVKEbxMKeFf/SoXkc0=
+03/09/2016 11:35:30 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:35:30 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="60835696189344524251457584530", oauth_timestamp="1457584530", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="5Nh54cAYJvVKEbxMKeFf%2FSoXkc0%3D"'}
+03/09/2016 11:35:30 PM Updated body: None
+03/09/2016 11:35:30 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:30 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:35:30 PM *******************************
+
+03/09/2016 11:35:30 PM 127.0.0.1 - - [09/Mar/2016 23:35:30] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:33 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:35:35 PM *******************************
+
+03/09/2016 11:35:35 PM 127.0.0.1 - - [09/Mar/2016 23:35:35] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:39 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:35:41 PM *******************************
+
+03/09/2016 11:35:41 PM 127.0.0.1 - - [09/Mar/2016 23:35:41] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:43 PM PARAMS: {'q': 'kim', 'rpp': '400'}
+03/09/2016 11:35:43 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:43 PM Including body in call to sign: False
+03/09/2016 11:35:43 PM Collected params: [(u'q', u'kim'), (u'rpp', u'400'), (u'oauth_nonce', u'77176541883009518951457584543'), (u'oauth_timestamp', u'1457584543'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:43 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=77176541883009518951457584543&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584543&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=kim&rpp=400
+03/09/2016 11:35:43 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:35:43 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D77176541883009518951457584543%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584543%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dkim%26rpp%3D400
+03/09/2016 11:35:43 PM Signature: yypNk7mncPelD2Ss3Geaauf29+M=
+03/09/2016 11:35:43 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=kim&rpp=400
+03/09/2016 11:35:43 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="77176541883009518951457584543", oauth_timestamp="1457584543", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="yypNk7mncPelD2Ss3Geaauf29%2BM%3D"'}
+03/09/2016 11:35:43 PM Updated body: None
+03/09/2016 11:35:44 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:44 PM "GET /1.1/search/tweets.json?q=kim&rpp=400 HTTP/1.1" 200 65755
+03/09/2016 11:35:44 PM 127.0.0.1 - - [09/Mar/2016 23:35:44] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:35:44 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:35:44 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:44 PM Including body in call to sign: False
+03/09/2016 11:35:44 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'173725507703143884761457584544'), (u'oauth_timestamp', u'1457584544'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:44 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=173725507703143884761457584544&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584544&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:35:44 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:35:44 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D173725507703143884761457584544%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584544%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:35:44 PM Signature: 5yheMfHUYJ9mjKLE1D4dd9wfjpY=
+03/09/2016 11:35:44 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:35:44 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="173725507703143884761457584544", oauth_timestamp="1457584544", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="5yheMfHUYJ9mjKLE1D4dd9wfjpY%3D"'}
+03/09/2016 11:35:44 PM Updated body: None
+03/09/2016 11:35:44 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:35:45 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:35:45 PM *******************************
+
+03/09/2016 11:35:45 PM 127.0.0.1 - - [09/Mar/2016 23:35:45] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:47 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:35:49 PM *******************************
+
+03/09/2016 11:35:49 PM 127.0.0.1 - - [09/Mar/2016 23:35:49] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:35:59 PM PARAMS: {'q': 'kim', 'rpp': '400'}
+03/09/2016 11:35:59 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:35:59 PM Including body in call to sign: False
+03/09/2016 11:35:59 PM Collected params: [(u'q', u'kim'), (u'rpp', u'400'), (u'oauth_nonce', u'107334635858949119021457584559'), (u'oauth_timestamp', u'1457584559'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:35:59 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=107334635858949119021457584559&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584559&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=kim&rpp=400
+03/09/2016 11:35:59 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:35:59 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D107334635858949119021457584559%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584559%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dkim%26rpp%3D400
+03/09/2016 11:35:59 PM Signature: DEPr01qMRplO/jK3VilN3XvelPY=
+03/09/2016 11:35:59 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=kim&rpp=400
+03/09/2016 11:35:59 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="107334635858949119021457584559", oauth_timestamp="1457584559", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="DEPr01qMRplO%2FjK3VilN3XvelPY%3D"'}
+03/09/2016 11:35:59 PM Updated body: None
+03/09/2016 11:36:00 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:36:00 PM "GET /1.1/search/tweets.json?q=kim&rpp=400 HTTP/1.1" 200 81400
+03/09/2016 11:36:00 PM 127.0.0.1 - - [09/Mar/2016 23:36:00] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:36:01 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:36:01 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:36:01 PM Including body in call to sign: False
+03/09/2016 11:36:01 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'67679859773825760261457584561'), (u'oauth_timestamp', u'1457584561'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:36:01 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=67679859773825760261457584561&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584561&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:36:01 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:36:01 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D67679859773825760261457584561%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584561%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:36:01 PM Signature: aMYob4Qgwa+WqA0FY+zVq2IKfUM=
+03/09/2016 11:36:01 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:36:01 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="67679859773825760261457584561", oauth_timestamp="1457584561", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="aMYob4Qgwa%2BWqA0FY%2BzVq2IKfUM%3D"'}
+03/09/2016 11:36:01 PM Updated body: None
+03/09/2016 11:36:01 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:36:01 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:36:01 PM *******************************
+
+03/09/2016 11:36:01 PM 127.0.0.1 - - [09/Mar/2016 23:36:01] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:36:52 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:36:58 PM *******************************
+
+03/09/2016 11:36:58 PM 127.0.0.1 - - [09/Mar/2016 23:36:58] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:37:00 PM PARAMS: {'q': 'springbreak', 'rpp': '400'}
+03/09/2016 11:37:00 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:00 PM Including body in call to sign: False
+03/09/2016 11:37:00 PM Collected params: [(u'q', u'springbreak'), (u'rpp', u'400'), (u'oauth_nonce', u'182811220473656648091457584620'), (u'oauth_timestamp', u'1457584620'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:00 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=182811220473656648091457584620&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584620&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=springbreak&rpp=400
+03/09/2016 11:37:00 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:37:00 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D182811220473656648091457584620%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584620%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dspringbreak%26rpp%3D400
+03/09/2016 11:37:00 PM Signature: MGgiC07jKIOMP3Zp8tuo9SxhZ+M=
+03/09/2016 11:37:00 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=springbreak&rpp=400
+03/09/2016 11:37:00 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="182811220473656648091457584620", oauth_timestamp="1457584620", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="MGgiC07jKIOMP3Zp8tuo9SxhZ%2BM%3D"'}
+03/09/2016 11:37:00 PM Updated body: None
+03/09/2016 11:37:00 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:01 PM "GET /1.1/search/tweets.json?q=springbreak&rpp=400 HTTP/1.1" 200 62817
+03/09/2016 11:37:01 PM 127.0.0.1 - - [09/Mar/2016 23:37:01] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:37:01 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:37:01 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:01 PM Including body in call to sign: False
+03/09/2016 11:37:01 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'120668127411001766341457584621'), (u'oauth_timestamp', u'1457584621'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:01 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=120668127411001766341457584621&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584621&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:37:01 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:37:01 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D120668127411001766341457584621%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584621%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:37:01 PM Signature: GaSy/1sTuE8zbuWfDzQ+ZhbwObs=
+03/09/2016 11:37:01 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:37:01 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="120668127411001766341457584621", oauth_timestamp="1457584621", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="GaSy%2F1sTuE8zbuWfDzQ%2BZhbwObs%3D"'}
+03/09/2016 11:37:01 PM Updated body: None
+03/09/2016 11:37:01 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:01 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:37:01 PM *******************************
+
+03/09/2016 11:37:01 PM 127.0.0.1 - - [09/Mar/2016 23:37:01] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:37:03 PM PARAMS: {'q': 'springbreak', 'rpp': '400'}
+03/09/2016 11:37:03 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:03 PM Including body in call to sign: False
+03/09/2016 11:37:03 PM Collected params: [(u'q', u'springbreak'), (u'rpp', u'400'), (u'oauth_nonce', u'138048447622712251601457584623'), (u'oauth_timestamp', u'1457584623'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:03 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=138048447622712251601457584623&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584623&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=springbreak&rpp=400
+03/09/2016 11:37:03 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:37:03 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D138048447622712251601457584623%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584623%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dspringbreak%26rpp%3D400
+03/09/2016 11:37:03 PM Signature: KG5CMy8j8e6J302Pt7aVxWbKO/U=
+03/09/2016 11:37:03 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=springbreak&rpp=400
+03/09/2016 11:37:03 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="138048447622712251601457584623", oauth_timestamp="1457584623", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="KG5CMy8j8e6J302Pt7aVxWbKO%2FU%3D"'}
+03/09/2016 11:37:03 PM Updated body: None
+03/09/2016 11:37:03 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:03 PM "GET /1.1/search/tweets.json?q=springbreak&rpp=400 HTTP/1.1" 200 62817
+03/09/2016 11:37:03 PM 127.0.0.1 - - [09/Mar/2016 23:37:03] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:37:04 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:37:04 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:04 PM Including body in call to sign: False
+03/09/2016 11:37:04 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'125980156550637511421457584624'), (u'oauth_timestamp', u'1457584624'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:04 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=125980156550637511421457584624&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584624&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:37:04 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:37:04 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D125980156550637511421457584624%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584624%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:37:04 PM Signature: R7EmbjSx3hnROSZM3ohRcJXd/tc=
+03/09/2016 11:37:04 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:37:04 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="125980156550637511421457584624", oauth_timestamp="1457584624", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="R7EmbjSx3hnROSZM3ohRcJXd%2Ftc%3D"'}
+03/09/2016 11:37:04 PM Updated body: None
+03/09/2016 11:37:04 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:04 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:37:04 PM *******************************
+
+03/09/2016 11:37:04 PM 127.0.0.1 - - [09/Mar/2016 23:37:04] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:37:11 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:37:13 PM *******************************
+
+03/09/2016 11:37:13 PM 127.0.0.1 - - [09/Mar/2016 23:37:13] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:37:17 PM PARAMS: {'q': 'bernie', 'rpp': '400'}
+03/09/2016 11:37:17 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:17 PM Including body in call to sign: False
+03/09/2016 11:37:17 PM Collected params: [(u'q', u'bernie'), (u'rpp', u'400'), (u'oauth_nonce', u'7617953431105535511457584637'), (u'oauth_timestamp', u'1457584637'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:17 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=7617953431105535511457584637&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584637&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=bernie&rpp=400
+03/09/2016 11:37:17 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:37:17 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D7617953431105535511457584637%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584637%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dbernie%26rpp%3D400
+03/09/2016 11:37:17 PM Signature: 8i+ipBGMLnYsAXESyy8BDb2uw80=
+03/09/2016 11:37:17 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=bernie&rpp=400
+03/09/2016 11:37:17 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="7617953431105535511457584637", oauth_timestamp="1457584637", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="8i%2BipBGMLnYsAXESyy8BDb2uw80%3D"'}
+03/09/2016 11:37:17 PM Updated body: None
+03/09/2016 11:37:17 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:17 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:37:19 PM *******************************
+
+03/09/2016 11:37:19 PM 127.0.0.1 - - [09/Mar/2016 23:37:19] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:37:23 PM PARAMS: {'q': 'hillary', 'rpp': '400'}
+03/09/2016 11:37:23 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:37:23 PM Including body in call to sign: False
+03/09/2016 11:37:23 PM Collected params: [(u'q', u'hillary'), (u'rpp', u'400'), (u'oauth_nonce', u'152965460459757795151457584643'), (u'oauth_timestamp', u'1457584643'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:37:23 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=152965460459757795151457584643&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584643&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=hillary&rpp=400
+03/09/2016 11:37:23 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:37:23 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D152965460459757795151457584643%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584643%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dhillary%26rpp%3D400
+03/09/2016 11:37:23 PM Signature: MQCYbnohBUKWuarG8I/fse+5yZ4=
+03/09/2016 11:37:23 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=hillary&rpp=400
+03/09/2016 11:37:23 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="152965460459757795151457584643", oauth_timestamp="1457584643", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="MQCYbnohBUKWuarG8I%2Ffse%2B5yZ4%3D"'}
+03/09/2016 11:37:23 PM Updated body: None
+03/09/2016 11:37:23 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:37:23 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:37:25 PM *******************************
+
+03/09/2016 11:37:25 PM 127.0.0.1 - - [09/Mar/2016 23:37:25] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:38:09 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:38:12 PM *******************************
+
+03/09/2016 11:38:12 PM 127.0.0.1 - - [09/Mar/2016 23:38:12] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:38:18 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:38:18 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:38:18 PM Including body in call to sign: False
+03/09/2016 11:38:18 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'132475030267977252901457584698'), (u'oauth_timestamp', u'1457584698'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:38:18 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=132475030267977252901457584698&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584698&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:38:18 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:38:18 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D132475030267977252901457584698%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584698%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:38:18 PM Signature: /JpJlJvlqSIeO2z0G5E7rTjqpyM=
+03/09/2016 11:38:18 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:38:18 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="132475030267977252901457584698", oauth_timestamp="1457584698", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="%2FJpJlJvlqSIeO2z0G5E7rTjqpyM%3D"'}
+03/09/2016 11:38:18 PM Updated body: None
+03/09/2016 11:38:18 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:38:18 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 67885
+03/09/2016 11:38:18 PM 127.0.0.1 - - [09/Mar/2016 23:38:18] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:38:18 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:38:18 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:38:18 PM Including body in call to sign: False
+03/09/2016 11:38:18 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'142589121156066262091457584698'), (u'oauth_timestamp', u'1457584698'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:38:18 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=142589121156066262091457584698&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584698&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:38:18 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:38:18 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D142589121156066262091457584698%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584698%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:38:18 PM Signature: tSlsOJk/spgMy6kX0gfiW71VK4M=
+03/09/2016 11:38:18 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:38:18 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="142589121156066262091457584698", oauth_timestamp="1457584698", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="tSlsOJk%2FspgMy6kX0gfiW71VK4M%3D"'}
+03/09/2016 11:38:18 PM Updated body: None
+03/09/2016 11:38:18 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:38:19 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:38:19 PM *******************************
+
+03/09/2016 11:38:19 PM 127.0.0.1 - - [09/Mar/2016 23:38:19] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:42 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:39:47 PM *******************************
+
+03/09/2016 11:39:47 PM 127.0.0.1 - - [09/Mar/2016 23:39:47] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:49 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:39:49 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:49 PM Including body in call to sign: False
+03/09/2016 11:39:49 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'13955902747494949131457584789'), (u'oauth_timestamp', u'1457584789'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:49 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=13955902747494949131457584789&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584789&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:39:49 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:39:49 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D13955902747494949131457584789%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584789%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:39:49 PM Signature: Tn0Ow5DI/1KkWU7N+siZOYnD+cw=
+03/09/2016 11:39:49 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:39:49 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="13955902747494949131457584789", oauth_timestamp="1457584789", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Tn0Ow5DI%2F1KkWU7N%2BsiZOYnD%2Bcw%3D"'}
+03/09/2016 11:39:49 PM Updated body: None
+03/09/2016 11:39:49 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:49 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:39:49 PM 127.0.0.1 - - [09/Mar/2016 23:39:49] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:39:50 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:39:50 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:50 PM Including body in call to sign: False
+03/09/2016 11:39:50 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'109632724733414142801457584790'), (u'oauth_timestamp', u'1457584790'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:50 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=109632724733414142801457584790&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584790&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:39:50 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:39:50 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D109632724733414142801457584790%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584790%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:39:50 PM Signature: pTZhmp399okgbA25IOCXjtofZkw=
+03/09/2016 11:39:50 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:39:50 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="109632724733414142801457584790", oauth_timestamp="1457584790", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="pTZhmp399okgbA25IOCXjtofZkw%3D"'}
+03/09/2016 11:39:50 PM Updated body: None
+03/09/2016 11:39:50 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:50 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:39:50 PM *******************************
+
+03/09/2016 11:39:50 PM 127.0.0.1 - - [09/Mar/2016 23:39:50] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:51 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:39:51 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:51 PM Including body in call to sign: False
+03/09/2016 11:39:51 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'53640892376590933161457584791'), (u'oauth_timestamp', u'1457584791'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:51 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=53640892376590933161457584791&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584791&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:39:51 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:39:51 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D53640892376590933161457584791%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584791%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:39:51 PM Signature: OzdrCx4SYcpxD5LqGWp/2TQDhGI=
+03/09/2016 11:39:51 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:39:51 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="53640892376590933161457584791", oauth_timestamp="1457584791", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="OzdrCx4SYcpxD5LqGWp%2F2TQDhGI%3D"'}
+03/09/2016 11:39:51 PM Updated body: None
+03/09/2016 11:39:51 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:51 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:39:51 PM 127.0.0.1 - - [09/Mar/2016 23:39:51] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:39:52 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:39:52 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:52 PM Including body in call to sign: False
+03/09/2016 11:39:52 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'4024278525703298901457584792'), (u'oauth_timestamp', u'1457584792'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:52 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=4024278525703298901457584792&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584792&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:39:52 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:39:52 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D4024278525703298901457584792%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584792%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:39:52 PM Signature: HaIIotcHzKKIJtTAdmitGTbA6Mc=
+03/09/2016 11:39:52 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:39:52 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="4024278525703298901457584792", oauth_timestamp="1457584792", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="HaIIotcHzKKIJtTAdmitGTbA6Mc%3D"'}
+03/09/2016 11:39:52 PM Updated body: None
+03/09/2016 11:39:52 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:52 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:39:52 PM *******************************
+
+03/09/2016 11:39:52 PM 127.0.0.1 - - [09/Mar/2016 23:39:52] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:54 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:39:54 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:54 PM Including body in call to sign: False
+03/09/2016 11:39:54 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'19596576785289803571457584794'), (u'oauth_timestamp', u'1457584794'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:54 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=19596576785289803571457584794&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584794&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:39:54 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:39:54 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D19596576785289803571457584794%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584794%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:39:54 PM Signature: WW1dz8/kEQmJLcKgmro4T8HzSEw=
+03/09/2016 11:39:54 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:39:54 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="19596576785289803571457584794", oauth_timestamp="1457584794", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="WW1dz8%2FkEQmJLcKgmro4T8HzSEw%3D"'}
+03/09/2016 11:39:54 PM Updated body: None
+03/09/2016 11:39:54 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:54 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:39:54 PM 127.0.0.1 - - [09/Mar/2016 23:39:54] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:39:55 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:39:55 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:55 PM Including body in call to sign: False
+03/09/2016 11:39:55 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'109421172437172049061457584795'), (u'oauth_timestamp', u'1457584795'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:55 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=109421172437172049061457584795&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584795&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:39:55 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:39:55 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D109421172437172049061457584795%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584795%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:39:55 PM Signature: /XA8Hsn3AvucsspToM0FvIb2sUU=
+03/09/2016 11:39:55 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:39:55 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="109421172437172049061457584795", oauth_timestamp="1457584795", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="%2FXA8Hsn3AvucsspToM0FvIb2sUU%3D"'}
+03/09/2016 11:39:55 PM Updated body: None
+03/09/2016 11:39:55 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:55 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:39:55 PM *******************************
+
+03/09/2016 11:39:55 PM 127.0.0.1 - - [09/Mar/2016 23:39:55] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:56 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:39:56 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:56 PM Including body in call to sign: False
+03/09/2016 11:39:56 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'156118890013068387021457584796'), (u'oauth_timestamp', u'1457584796'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:56 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=156118890013068387021457584796&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584796&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:39:56 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:39:56 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D156118890013068387021457584796%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584796%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:39:56 PM Signature: UlrojAMfcF5N+FDKV8WBBt2blnE=
+03/09/2016 11:39:56 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:39:56 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="156118890013068387021457584796", oauth_timestamp="1457584796", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="UlrojAMfcF5N%2BFDKV8WBBt2blnE%3D"'}
+03/09/2016 11:39:56 PM Updated body: None
+03/09/2016 11:39:57 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:57 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:39:57 PM 127.0.0.1 - - [09/Mar/2016 23:39:57] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:39:58 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:39:58 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:58 PM Including body in call to sign: False
+03/09/2016 11:39:58 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'162301678851372058581457584798'), (u'oauth_timestamp', u'1457584798'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:58 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=162301678851372058581457584798&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584798&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:39:58 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:39:58 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D162301678851372058581457584798%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584798%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:39:58 PM Signature: Psut1CklhZhHOV/hB3U5kINOYLc=
+03/09/2016 11:39:58 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:39:58 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="162301678851372058581457584798", oauth_timestamp="1457584798", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Psut1CklhZhHOV%2FhB3U5kINOYLc%3D"'}
+03/09/2016 11:39:58 PM Updated body: None
+03/09/2016 11:39:58 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:58 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:39:58 PM *******************************
+
+03/09/2016 11:39:58 PM 127.0.0.1 - - [09/Mar/2016 23:39:58] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:39:59 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:39:59 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:39:59 PM Including body in call to sign: False
+03/09/2016 11:39:59 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'141619189843754029551457584799'), (u'oauth_timestamp', u'1457584799'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:39:59 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=141619189843754029551457584799&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584799&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:39:59 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:39:59 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D141619189843754029551457584799%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584799%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:39:59 PM Signature: QmuHb3Fpy7XrUR2hzJnblK+K6hw=
+03/09/2016 11:39:59 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:39:59 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="141619189843754029551457584799", oauth_timestamp="1457584799", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="QmuHb3Fpy7XrUR2hzJnblK%2BK6hw%3D"'}
+03/09/2016 11:39:59 PM Updated body: None
+03/09/2016 11:39:59 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:39:59 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:39:59 PM 127.0.0.1 - - [09/Mar/2016 23:39:59] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:00 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:00 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:00 PM Including body in call to sign: False
+03/09/2016 11:40:00 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'9557681968402793431457584800'), (u'oauth_timestamp', u'1457584800'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:00 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=9557681968402793431457584800&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584800&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:00 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:00 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D9557681968402793431457584800%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584800%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:00 PM Signature: XnO0PBBFS9hdo7HQncOrmvH6MKw=
+03/09/2016 11:40:00 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:00 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="9557681968402793431457584800", oauth_timestamp="1457584800", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="XnO0PBBFS9hdo7HQncOrmvH6MKw%3D"'}
+03/09/2016 11:40:00 PM Updated body: None
+03/09/2016 11:40:00 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:00 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:00 PM *******************************
+
+03/09/2016 11:40:00 PM 127.0.0.1 - - [09/Mar/2016 23:40:00] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:02 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:02 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:02 PM Including body in call to sign: False
+03/09/2016 11:40:02 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'172076412434815862771457584802'), (u'oauth_timestamp', u'1457584802'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:02 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=172076412434815862771457584802&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584802&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:02 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:02 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D172076412434815862771457584802%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584802%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:02 PM Signature: TZcruX0uVNaht8gKhGCuYSy+LQA=
+03/09/2016 11:40:02 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:02 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="172076412434815862771457584802", oauth_timestamp="1457584802", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="TZcruX0uVNaht8gKhGCuYSy%2BLQA%3D"'}
+03/09/2016 11:40:02 PM Updated body: None
+03/09/2016 11:40:02 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:02 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 81723
+03/09/2016 11:40:02 PM 127.0.0.1 - - [09/Mar/2016 23:40:02] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:02 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:02 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:02 PM Including body in call to sign: False
+03/09/2016 11:40:02 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'138572447409977914051457584802'), (u'oauth_timestamp', u'1457584802'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:02 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=138572447409977914051457584802&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584802&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:02 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:02 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D138572447409977914051457584802%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584802%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:02 PM Signature: RwUTsgwVTOnc75tUZLTQSu6nXSU=
+03/09/2016 11:40:02 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:02 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="138572447409977914051457584802", oauth_timestamp="1457584802", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="RwUTsgwVTOnc75tUZLTQSu6nXSU%3D"'}
+03/09/2016 11:40:02 PM Updated body: None
+03/09/2016 11:40:02 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:03 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:03 PM *******************************
+
+03/09/2016 11:40:03 PM 127.0.0.1 - - [09/Mar/2016 23:40:03] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:04 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:04 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:04 PM Including body in call to sign: False
+03/09/2016 11:40:04 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'141180709414406206641457584804'), (u'oauth_timestamp', u'1457584804'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:04 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=141180709414406206641457584804&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584804&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:04 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:04 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D141180709414406206641457584804%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584804%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:04 PM Signature: z1ChcC8P11XdANctthaS1hjyksY=
+03/09/2016 11:40:04 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:04 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="141180709414406206641457584804", oauth_timestamp="1457584804", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="z1ChcC8P11XdANctthaS1hjyksY%3D"'}
+03/09/2016 11:40:04 PM Updated body: None
+03/09/2016 11:40:04 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:04 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 63043
+03/09/2016 11:40:04 PM 127.0.0.1 - - [09/Mar/2016 23:40:04] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:05 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:05 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:05 PM Including body in call to sign: False
+03/09/2016 11:40:05 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'7550676550248181111457584805'), (u'oauth_timestamp', u'1457584805'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:05 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=7550676550248181111457584805&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584805&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:05 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:05 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D7550676550248181111457584805%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584805%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:05 PM Signature: z2yDFjqDocwkeAiC3XNSDZftho0=
+03/09/2016 11:40:05 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:05 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="7550676550248181111457584805", oauth_timestamp="1457584805", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="z2yDFjqDocwkeAiC3XNSDZftho0%3D"'}
+03/09/2016 11:40:05 PM Updated body: None
+03/09/2016 11:40:05 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:05 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:05 PM *******************************
+
+03/09/2016 11:40:05 PM 127.0.0.1 - - [09/Mar/2016 23:40:05] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:07 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:07 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:07 PM Including body in call to sign: False
+03/09/2016 11:40:07 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'243215504905129401457584807'), (u'oauth_timestamp', u'1457584807'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:07 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=243215504905129401457584807&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584807&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:07 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:07 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D243215504905129401457584807%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584807%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:07 PM Signature: uHkmmXtlxQg9hxtOIriW4KxxNn4=
+03/09/2016 11:40:07 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:07 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="243215504905129401457584807", oauth_timestamp="1457584807", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="uHkmmXtlxQg9hxtOIriW4KxxNn4%3D"'}
+03/09/2016 11:40:07 PM Updated body: None
+03/09/2016 11:40:07 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:07 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 63043
+03/09/2016 11:40:07 PM 127.0.0.1 - - [09/Mar/2016 23:40:07] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:08 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:08 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:08 PM Including body in call to sign: False
+03/09/2016 11:40:08 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'48340287983072767661457584808'), (u'oauth_timestamp', u'1457584808'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:08 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=48340287983072767661457584808&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584808&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:08 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:08 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D48340287983072767661457584808%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584808%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:08 PM Signature: a45ubp7ilMGfUO8xQDZZ94jv2lY=
+03/09/2016 11:40:08 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:08 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="48340287983072767661457584808", oauth_timestamp="1457584808", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="a45ubp7ilMGfUO8xQDZZ94jv2lY%3D"'}
+03/09/2016 11:40:08 PM Updated body: None
+03/09/2016 11:40:08 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:08 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:08 PM *******************************
+
+03/09/2016 11:40:08 PM 127.0.0.1 - - [09/Mar/2016 23:40:08] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:11 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:11 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:11 PM Including body in call to sign: False
+03/09/2016 11:40:11 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'52514280996355308571457584811'), (u'oauth_timestamp', u'1457584811'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:11 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=52514280996355308571457584811&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584811&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:11 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:11 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D52514280996355308571457584811%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584811%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:11 PM Signature: 0SfB2cWdoTi2XTjV+9JfIEVFda4=
+03/09/2016 11:40:11 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:11 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="52514280996355308571457584811", oauth_timestamp="1457584811", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="0SfB2cWdoTi2XTjV%2B9JfIEVFda4%3D"'}
+03/09/2016 11:40:11 PM Updated body: None
+03/09/2016 11:40:11 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:11 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 63043
+03/09/2016 11:40:11 PM 127.0.0.1 - - [09/Mar/2016 23:40:11] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:11 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:11 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:11 PM Including body in call to sign: False
+03/09/2016 11:40:11 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'149241428298627064421457584811'), (u'oauth_timestamp', u'1457584811'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:11 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=149241428298627064421457584811&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584811&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:11 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:11 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D149241428298627064421457584811%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584811%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:11 PM Signature: Eu71HCL42UwFiPaUxItnT8mdJe8=
+03/09/2016 11:40:11 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:11 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="149241428298627064421457584811", oauth_timestamp="1457584811", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Eu71HCL42UwFiPaUxItnT8mdJe8%3D"'}
+03/09/2016 11:40:11 PM Updated body: None
+03/09/2016 11:40:11 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:12 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:12 PM *******************************
+
+03/09/2016 11:40:12 PM 127.0.0.1 - - [09/Mar/2016 23:40:12] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:48 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:48 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:48 PM Including body in call to sign: False
+03/09/2016 11:40:48 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'43179703568143694651457584848'), (u'oauth_timestamp', u'1457584848'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:48 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=43179703568143694651457584848&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584848&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:48 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:48 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D43179703568143694651457584848%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584848%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:48 PM Signature: KZYT9upgMRYIh//flmgDw99RzuY=
+03/09/2016 11:40:48 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:48 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="43179703568143694651457584848", oauth_timestamp="1457584848", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="KZYT9upgMRYIh%2F%2FflmgDw99RzuY%3D"'}
+03/09/2016 11:40:48 PM Updated body: None
+03/09/2016 11:40:49 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:49 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 73158
+03/09/2016 11:40:49 PM 127.0.0.1 - - [09/Mar/2016 23:40:49] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:50 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:50 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:50 PM Including body in call to sign: False
+03/09/2016 11:40:50 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'143040076624108257511457584850'), (u'oauth_timestamp', u'1457584850'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:50 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=143040076624108257511457584850&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584850&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:50 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:50 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D143040076624108257511457584850%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584850%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:50 PM Signature: 9l3wh6DIO4H9VGHoOQ9mzkf5EL0=
+03/09/2016 11:40:50 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:50 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="143040076624108257511457584850", oauth_timestamp="1457584850", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="9l3wh6DIO4H9VGHoOQ9mzkf5EL0%3D"'}
+03/09/2016 11:40:50 PM Updated body: None
+03/09/2016 11:40:50 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:50 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:50 PM *******************************
+
+03/09/2016 11:40:50 PM 127.0.0.1 - - [09/Mar/2016 23:40:50] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:52 PM PARAMS: {'q': 'trump', 'rpp': '400'}
+03/09/2016 11:40:52 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:52 PM Including body in call to sign: False
+03/09/2016 11:40:52 PM Collected params: [(u'q', u'trump'), (u'rpp', u'400'), (u'oauth_nonce', u'26370121970887004861457584852'), (u'oauth_timestamp', u'1457584852'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:52 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=26370121970887004861457584852&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584852&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0&q=trump&rpp=400
+03/09/2016 11:40:52 PM Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/09/2016 11:40:52 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D26370121970887004861457584852%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584852%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0%26q%3Dtrump%26rpp%3D400
+03/09/2016 11:40:52 PM Signature: qFzBNH0Tl4RzzMHqx/EapSm9ibA=
+03/09/2016 11:40:52 PM Updated url: https://api.twitter.com/1.1/search/tweets.json?q=trump&rpp=400
+03/09/2016 11:40:52 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="26370121970887004861457584852", oauth_timestamp="1457584852", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="qFzBNH0Tl4RzzMHqx%2FEapSm9ibA%3D"'}
+03/09/2016 11:40:52 PM Updated body: None
+03/09/2016 11:40:52 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:52 PM "GET /1.1/search/tweets.json?q=trump&rpp=400 HTTP/1.1" 200 73158
+03/09/2016 11:40:52 PM 127.0.0.1 - - [09/Mar/2016 23:40:52] "GET /map/hi HTTP/1.1" 200 -
+03/09/2016 11:40:53 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+03/09/2016 11:40:53 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+03/09/2016 11:40:53 PM Including body in call to sign: False
+03/09/2016 11:40:53 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'112441392369921066751457584853'), (u'oauth_timestamp', u'1457584853'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+03/09/2016 11:40:53 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=112441392369921066751457584853&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1457584853&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+03/09/2016 11:40:53 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/09/2016 11:40:53 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D112441392369921066751457584853%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457584853%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+03/09/2016 11:40:53 PM Signature: mAVJDlQB4cuiEkz23dsulhqf1Ic=
+03/09/2016 11:40:53 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+03/09/2016 11:40:53 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="112441392369921066751457584853", oauth_timestamp="1457584853", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="mAVJDlQB4cuiEkz23dsulhqf1Ic%3D"'}
+03/09/2016 11:40:53 PM Updated body: None
+03/09/2016 11:40:53 PM Starting new HTTPS connection (1): api.twitter.com
+03/09/2016 11:40:53 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+03/09/2016 11:40:53 PM *******************************
+
+03/09/2016 11:40:53 PM 127.0.0.1 - - [09/Mar/2016 23:40:53] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:40:59 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:41:02 PM *******************************
+
+03/09/2016 11:41:02 PM 127.0.0.1 - - [09/Mar/2016 23:41:02] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:41:07 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:41:10 PM *******************************
+
+03/09/2016 11:41:10 PM 127.0.0.1 - - [09/Mar/2016 23:41:10] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:41:16 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:41:18 PM *******************************
+
+03/09/2016 11:41:18 PM 127.0.0.1 - - [09/Mar/2016 23:41:18] "GET /favicon.ico HTTP/1.1" 200 -
+03/09/2016 11:41:40 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+03/09/2016 11:41:53 PM *******************************
+
+03/09/2016 11:41:53 PM 127.0.0.1 - - [09/Mar/2016 23:41:53] "GET /favicon.ico HTTP/1.1" 200 -

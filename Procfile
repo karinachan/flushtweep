@@ -1,1 +1,1 @@
-web: python twitter_streaming.py
+web: python wsgi.py
