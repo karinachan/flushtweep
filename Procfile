@@ -1,1 +1,1 @@
-web: python flushtwitter/twitter_streaming.py
+web: python twitter_streaming.py
