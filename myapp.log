@@ -1662,3 +1662,463 @@
 03/09/2016 11:41:53 PM *******************************
 
 03/09/2016 11:41:53 PM 127.0.0.1 - - [09/Mar/2016 23:41:53] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:06:34 PM *******************************
+
+07/04/2017 03:06:34 PM 127.0.0.1 - - [04/Jul/2017 15:06:34] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:06:35 PM PARAMS: {'count': '100', 'id': 'karina'}
+07/04/2017 03:06:35 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:06:35 PM Including body in call to sign: False
+07/04/2017 03:06:35 PM Collected params: [(u'count', u'100'), (u'id', u'karina'), (u'oauth_nonce', u'60519845694713612991499205995'), (u'oauth_timestamp', u'1499205995'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:06:35 PM Normalized params: count=100&id=karina&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=60519845694713612991499205995&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499205995&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:06:35 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:06:35 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dkarina%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D60519845694713612991499205995%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499205995%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:06:35 PM Signature: Rrrw8X4xtS5+r7frmABFRCW8wb0=
+07/04/2017 03:06:35 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=karina
+07/04/2017 03:06:35 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="60519845694713612991499205995", oauth_timestamp="1499205995", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="Rrrw8X4xtS5%2Br7frmABFRCW8wb0%3D"'}
+07/04/2017 03:06:35 PM Updated body: None
+07/04/2017 03:06:35 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:06:35 PM "GET /1.1/statuses/user_timeline.json?count=100&id=karina HTTP/1.1" 200 309122
+07/04/2017 03:06:35 PM 127.0.0.1 - - [04/Jul/2017 15:06:35] "GET /karina? HTTP/1.1" 200 -
+07/04/2017 03:06:36 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+07/04/2017 03:06:36 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:06:36 PM Including body in call to sign: False
+07/04/2017 03:06:36 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'49182733547756291381499205996'), (u'oauth_timestamp', u'1499205996'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:06:36 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=49182733547756291381499205996&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499205996&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:06:36 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:06:36 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D49182733547756291381499205996%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499205996%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:06:36 PM Signature: 1IksYfdBvmKtg43Rxkmm1giH8vA=
+07/04/2017 03:06:36 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+07/04/2017 03:06:36 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="49182733547756291381499205996", oauth_timestamp="1499205996", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="1IksYfdBvmKtg43Rxkmm1giH8vA%3D"'}
+07/04/2017 03:06:36 PM Updated body: None
+07/04/2017 03:06:36 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:06:36 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+07/04/2017 03:06:36 PM *******************************
+
+07/04/2017 03:06:36 PM 127.0.0.1 - - [04/Jul/2017 15:06:36] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:08:57 PM *******************************
+
+07/04/2017 03:08:57 PM 127.0.0.1 - - [04/Jul/2017 15:08:57] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:09:12 PM 127.0.0.1 - - [04/Jul/2017 15:09:12] "GET / HTTP/1.1" 200 -
+07/04/2017 03:09:12 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+07/04/2017 03:09:12 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:09:12 PM Including body in call to sign: False
+07/04/2017 03:09:12 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'92029131701844397151499206152'), (u'oauth_timestamp', u'1499206152'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:09:12 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=92029131701844397151499206152&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499206152&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:09:12 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:09:12 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D92029131701844397151499206152%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499206152%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:09:12 PM Signature: D2R1rwq7SFBtPjB2s0tN9cJDgOc=
+07/04/2017 03:09:12 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+07/04/2017 03:09:12 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="92029131701844397151499206152", oauth_timestamp="1499206152", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="D2R1rwq7SFBtPjB2s0tN9cJDgOc%3D"'}
+07/04/2017 03:09:12 PM Updated body: None
+07/04/2017 03:09:12 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:09:13 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+07/04/2017 03:09:13 PM *******************************
+
+07/04/2017 03:09:13 PM 127.0.0.1 - - [04/Jul/2017 15:09:13] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:09:18 PM PARAMS: {'count': '100', 'id': 'favicon.ico'}
+07/04/2017 03:09:18 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:09:18 PM Including body in call to sign: False
+07/04/2017 03:09:18 PM Collected params: [(u'count', u'100'), (u'id', u'favicon.ico'), (u'oauth_nonce', u'17561300728169773951499206158'), (u'oauth_timestamp', u'1499206158'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:09:18 PM Normalized params: count=100&id=favicon.ico&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=17561300728169773951499206158&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499206158&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:09:18 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:09:18 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dfavicon.ico%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D17561300728169773951499206158%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499206158%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:09:18 PM Signature: OVQxGMmF9XMRpDZxw5AoDA67wEQ=
+07/04/2017 03:09:18 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=favicon.ico
+07/04/2017 03:09:18 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="17561300728169773951499206158", oauth_timestamp="1499206158", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="OVQxGMmF9XMRpDZxw5AoDA67wEQ%3D"'}
+07/04/2017 03:09:18 PM Updated body: None
+07/04/2017 03:09:18 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:09:18 PM "GET /1.1/statuses/user_timeline.json?count=100&id=favicon.ico HTTP/1.1" 404 69
+07/04/2017 03:09:18 PM *******************************
+
+07/04/2017 03:09:18 PM 127.0.0.1 - - [04/Jul/2017 15:09:18] "GET /favicon.ico HTTP/1.1" 200 -
+07/04/2017 03:12:25 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:48:57 PM *******************************
+
+07/04/2017 03:48:57 PM PARAMS: {'count': '100'}
+07/04/2017 03:48:57 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:48:57 PM Including body in call to sign: False
+07/04/2017 03:48:57 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'55095929112481149021499208537'), (u'oauth_timestamp', u'1499208537'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:48:57 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=55095929112481149021499208537&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208537&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:48:57 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:48:57 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D55095929112481149021499208537%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208537%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:48:57 PM Signature: mm4/a8aD4uhiVrloHdWCSMsoIGI=
+07/04/2017 03:48:57 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:48:57 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="55095929112481149021499208537", oauth_timestamp="1499208537", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="mm4%2Fa8aD4uhiVrloHdWCSMsoIGI%3D"'}
+07/04/2017 03:48:57 PM Updated body: None
+07/04/2017 03:48:57 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:48:58 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502163
+07/04/2017 03:48:58 PM 127.0.0.1 - - [04/Jul/2017 15:48:58] "GET /delete?tid=846772756444209152 HTTP/1.1" 500 -
+07/04/2017 03:48:59 PM 127.0.0.1 - - [04/Jul/2017 15:48:59] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:48:59 PM 127.0.0.1 - - [04/Jul/2017 15:48:59] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:48:59 PM 127.0.0.1 - - [04/Jul/2017 15:48:59] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:48:59 PM 127.0.0.1 - - [04/Jul/2017 15:48:59] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:48:59 PM 127.0.0.1 - - [04/Jul/2017 15:48:59] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:00 PM 127.0.0.1 - - [04/Jul/2017 15:49:00] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:03 PM PARAMS: {'id': '846772756444209152'}
+07/04/2017 03:49:03 PM Signing request <PreparedRequest [POST]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:49:03 PM Including body in call to sign: False
+07/04/2017 03:49:03 PM Collected params: [(u'oauth_nonce', u'46893694077015124171499208543'), (u'oauth_timestamp', u'1499208543'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:49:03 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=46893694077015124171499208543&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208543&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:49:03 PM Normalized URI: https://api.twitter.com/1.1/statuses/destroy/846772756444209152.json
+07/04/2017 03:49:03 PM Base signing string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fdestroy%2F846772756444209152.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D46893694077015124171499208543%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208543%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:49:03 PM Signature: 4AiwqHkpUFSd5ketQjV8cld9EWo=
+07/04/2017 03:49:03 PM Updated url: https://api.twitter.com/1.1/statuses/destroy/846772756444209152.json
+07/04/2017 03:49:03 PM Updated headers: {u'Host': u'api.twitter.com', u'Content-Length': u'0', u'Authorization': u'OAuth oauth_nonce="46893694077015124171499208543", oauth_timestamp="1499208543", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="4AiwqHkpUFSd5ketQjV8cld9EWo%3D"'}
+07/04/2017 03:49:03 PM Updated body: None
+07/04/2017 03:49:03 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:49:03 PM "POST /1.1/statuses/destroy/846772756444209152.json HTTP/1.1" 404 67
+07/04/2017 03:49:03 PM *******************************
+
+07/04/2017 03:49:03 PM PARAMS: {'count': '100'}
+07/04/2017 03:49:03 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:49:03 PM Including body in call to sign: False
+07/04/2017 03:49:03 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'132468633215128856181499208543'), (u'oauth_timestamp', u'1499208543'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:49:03 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=132468633215128856181499208543&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208543&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:49:03 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:49:03 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D132468633215128856181499208543%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208543%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:49:03 PM Signature: zHhdlKzJ5iEO+rroFxVxvYl9RAs=
+07/04/2017 03:49:03 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:49:03 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="132468633215128856181499208543", oauth_timestamp="1499208543", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="zHhdlKzJ5iEO%2BrroFxVxvYl9RAs%3D"'}
+07/04/2017 03:49:03 PM Updated body: None
+07/04/2017 03:49:03 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:49:03 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502163
+07/04/2017 03:49:04 PM 127.0.0.1 - - [04/Jul/2017 15:49:04] "GET /delete?tid=846772756444209152 HTTP/1.1" 500 -
+07/04/2017 03:49:04 PM 127.0.0.1 - - [04/Jul/2017 15:49:04] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:49:04 PM 127.0.0.1 - - [04/Jul/2017 15:49:04] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:49:04 PM 127.0.0.1 - - [04/Jul/2017 15:49:04] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:49:05 PM 127.0.0.1 - - [04/Jul/2017 15:49:05] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:49:05 PM 127.0.0.1 - - [04/Jul/2017 15:49:05] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:05 PM 127.0.0.1 - - [04/Jul/2017 15:49:05] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:20 PM *******************************
+
+07/04/2017 03:49:20 PM PARAMS: {'count': '100'}
+07/04/2017 03:49:20 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:49:20 PM Including body in call to sign: False
+07/04/2017 03:49:20 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'162845674855754008201499208560'), (u'oauth_timestamp', u'1499208560'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:49:20 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=162845674855754008201499208560&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208560&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:49:20 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:49:20 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D162845674855754008201499208560%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208560%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:49:20 PM Signature: /5uic/99lRT0Fw/EGUfmiCTYqvU=
+07/04/2017 03:49:20 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:49:20 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="162845674855754008201499208560", oauth_timestamp="1499208560", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="%2F5uic%2F99lRT0Fw%2FEGUfmiCTYqvU%3D"'}
+07/04/2017 03:49:20 PM Updated body: None
+07/04/2017 03:49:20 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:49:20 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502163
+07/04/2017 03:49:21 PM 127.0.0.1 - - [04/Jul/2017 15:49:21] "GET /delete?tid=846772756444209152 HTTP/1.1" 500 -
+07/04/2017 03:49:21 PM 127.0.0.1 - - [04/Jul/2017 15:49:21] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:49:21 PM 127.0.0.1 - - [04/Jul/2017 15:49:21] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:49:21 PM 127.0.0.1 - - [04/Jul/2017 15:49:21] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:49:21 PM 127.0.0.1 - - [04/Jul/2017 15:49:21] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:49:22 PM 127.0.0.1 - - [04/Jul/2017 15:49:22] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:22 PM 127.0.0.1 - - [04/Jul/2017 15:49:22] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:49:30 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:49:38 PM *******************************
+
+07/04/2017 03:49:38 PM PARAMS: {'count': '100'}
+07/04/2017 03:49:38 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:49:38 PM Including body in call to sign: False
+07/04/2017 03:49:38 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'78579921163302400331499208578'), (u'oauth_timestamp', u'1499208578'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:49:38 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=78579921163302400331499208578&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208578&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:49:38 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:49:38 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D78579921163302400331499208578%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208578%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:49:38 PM Signature: QKYAVm5bog/L3LBJ/DsZtJ4Qvp0=
+07/04/2017 03:49:38 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:49:38 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="78579921163302400331499208578", oauth_timestamp="1499208578", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="QKYAVm5bog%2FL3LBJ%2FDsZtJ4Qvp0%3D"'}
+07/04/2017 03:49:38 PM Updated body: None
+07/04/2017 03:49:38 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:49:38 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502163
+07/04/2017 03:49:39 PM 127.0.0.1 - - [04/Jul/2017 15:49:39] "GET /delete?tid=846772756444209152 HTTP/1.1" 200 -
+07/04/2017 03:51:29 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:53:50 PM *******************************
+
+07/04/2017 03:53:50 PM 127.0.0.1 - - [04/Jul/2017 15:53:50] "GET /delete?tid=846772756444209152 HTTP/1.1" 500 -
+07/04/2017 03:53:50 PM 127.0.0.1 - - [04/Jul/2017 15:53:50] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:53:50 PM 127.0.0.1 - - [04/Jul/2017 15:53:50] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:53:50 PM 127.0.0.1 - - [04/Jul/2017 15:53:50] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:53:51 PM 127.0.0.1 - - [04/Jul/2017 15:53:51] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:53:51 PM 127.0.0.1 - - [04/Jul/2017 15:53:51] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:53:52 PM 127.0.0.1 - - [04/Jul/2017 15:53:52] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:53:59 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:54:01 PM *******************************
+
+07/04/2017 03:54:01 PM 127.0.0.1 - - [04/Jul/2017 15:54:01] "GET /delete?tid=846772756444209152 HTTP/1.1" 500 -
+07/04/2017 03:54:01 PM 127.0.0.1 - - [04/Jul/2017 15:54:01] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:54:01 PM 127.0.0.1 - - [04/Jul/2017 15:54:01] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:54:01 PM 127.0.0.1 - - [04/Jul/2017 15:54:01] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:54:02 PM 127.0.0.1 - - [04/Jul/2017 15:54:02] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:54:02 PM 127.0.0.1 - - [04/Jul/2017 15:54:02] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:54:02 PM 127.0.0.1 - - [04/Jul/2017 15:54:02] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:54:39 PM PARAMS: {'count': '100', 'id': 'kaykaychan'}
+07/04/2017 03:54:39 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:54:39 PM Including body in call to sign: False
+07/04/2017 03:54:39 PM Collected params: [(u'count', u'100'), (u'id', u'kaykaychan'), (u'oauth_nonce', u'127059569532024011921499208879'), (u'oauth_timestamp', u'1499208879'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:54:39 PM Normalized params: count=100&id=kaykaychan&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=127059569532024011921499208879&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208879&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:54:39 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:54:39 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dkaykaychan%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D127059569532024011921499208879%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208879%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:54:39 PM Signature: tcEhK+W4BuRX5dEmIqSiSyBvZ08=
+07/04/2017 03:54:39 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=kaykaychan
+07/04/2017 03:54:39 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="127059569532024011921499208879", oauth_timestamp="1499208879", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="tcEhK%2BW4BuRX5dEmIqSiSyBvZ08%3D"'}
+07/04/2017 03:54:39 PM Updated body: None
+07/04/2017 03:54:39 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:54:39 PM "GET /1.1/statuses/user_timeline.json?count=100&id=kaykaychan HTTP/1.1" 200 502163
+07/04/2017 03:54:40 PM 127.0.0.1 - - [04/Jul/2017 15:54:40] "GET /next?handle=kaykaychan HTTP/1.1" 200 -
+07/04/2017 03:54:48 PM PARAMS: {'id': '773675704911179776'}
+07/04/2017 03:54:48 PM Signing request <PreparedRequest [POST]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:54:48 PM Including body in call to sign: False
+07/04/2017 03:54:48 PM Collected params: [(u'oauth_nonce', u'143784221450425724451499208888'), (u'oauth_timestamp', u'1499208888'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:54:48 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=143784221450425724451499208888&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208888&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:54:48 PM Normalized URI: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:54:48 PM Base signing string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fdestroy%2F773675704911179776.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D143784221450425724451499208888%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208888%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:54:48 PM Signature: OmW8jnnWP//bW226L+VT83vC6ow=
+07/04/2017 03:54:48 PM Updated url: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:54:48 PM Updated headers: {u'Host': u'api.twitter.com', u'Content-Length': u'0', u'Authorization': u'OAuth oauth_nonce="143784221450425724451499208888", oauth_timestamp="1499208888", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="OmW8jnnWP%2F%2FbW226L%2BVT83vC6ow%3D"'}
+07/04/2017 03:54:48 PM Updated body: None
+07/04/2017 03:54:48 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:54:49 PM "POST /1.1/statuses/destroy/773675704911179776.json HTTP/1.1" 200 2239
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?tid=773675704911179776&name=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:54:49 PM 127.0.0.1 - - [04/Jul/2017 15:54:49] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:55:04 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:55:43 PM *******************************
+
+07/04/2017 03:55:43 PM 127.0.0.1 - - [04/Jul/2017 15:55:43] "GET /delete?tid=773675704911179776&name=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:55:43 PM 127.0.0.1 - - [04/Jul/2017 15:55:43] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:55:43 PM 127.0.0.1 - - [04/Jul/2017 15:55:43] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:55:43 PM 127.0.0.1 - - [04/Jul/2017 15:55:43] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:55:44 PM 127.0.0.1 - - [04/Jul/2017 15:55:44] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:55:44 PM 127.0.0.1 - - [04/Jul/2017 15:55:44] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:55:44 PM PARAMS: {'id': '773675704911179776'}
+07/04/2017 03:55:44 PM Signing request <PreparedRequest [POST]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:55:44 PM Including body in call to sign: False
+07/04/2017 03:55:44 PM Collected params: [(u'oauth_nonce', u'78469007749599564961499208944'), (u'oauth_timestamp', u'1499208944'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:55:44 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=78469007749599564961499208944&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208944&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:55:44 PM Normalized URI: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:55:44 PM Base signing string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fdestroy%2F773675704911179776.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D78469007749599564961499208944%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208944%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:55:44 PM Signature: GX22EyCJuT/0bs6roaIDTzWvXrE=
+07/04/2017 03:55:44 PM Updated url: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:55:44 PM Updated headers: {u'Host': u'api.twitter.com', u'Content-Length': u'0', u'Authorization': u'OAuth oauth_nonce="78469007749599564961499208944", oauth_timestamp="1499208944", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="GX22EyCJuT%2F0bs6roaIDTzWvXrE%3D"'}
+07/04/2017 03:55:44 PM Updated body: None
+07/04/2017 03:55:44 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:55:44 PM "POST /1.1/statuses/destroy/773675704911179776.json HTTP/1.1" 404 67
+07/04/2017 03:55:44 PM *******************************
+
+07/04/2017 03:55:44 PM 127.0.0.1 - - [04/Jul/2017 15:55:44] "GET /delete?tid=773675704911179776&name=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:55:45 PM 127.0.0.1 - - [04/Jul/2017 15:55:45] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:55:45 PM 127.0.0.1 - - [04/Jul/2017 15:55:45] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:55:45 PM 127.0.0.1 - - [04/Jul/2017 15:55:45] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:55:46 PM 127.0.0.1 - - [04/Jul/2017 15:55:46] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:55:46 PM 127.0.0.1 - - [04/Jul/2017 15:55:46] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:55:46 PM 127.0.0.1 - - [04/Jul/2017 15:55:46] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:55:56 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:55:57 PM *******************************
+
+07/04/2017 03:55:57 PM PARAMS: {'count': '100'}
+07/04/2017 03:55:57 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:55:57 PM Including body in call to sign: False
+07/04/2017 03:55:57 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'74160986536763692311499208957'), (u'oauth_timestamp', u'1499208957'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:55:57 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=74160986536763692311499208957&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208957&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:55:57 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:55:57 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D74160986536763692311499208957%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208957%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:55:57 PM Signature: rO9gjVACB1lsYOwRIt4g5B9n/9Q=
+07/04/2017 03:55:57 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:55:57 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="74160986536763692311499208957", oauth_timestamp="1499208957", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="rO9gjVACB1lsYOwRIt4g5B9n%2F9Q%3D"'}
+07/04/2017 03:55:57 PM Updated body: None
+07/04/2017 03:55:57 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:55:58 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502270
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?tid=773675704911179776&name=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:55:59 PM 127.0.0.1 - - [04/Jul/2017 15:55:59] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:56:00 PM 127.0.0.1 - - [04/Jul/2017 15:56:00] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:56:20 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:56:23 PM *******************************
+
+07/04/2017 03:56:23 PM PARAMS: {'count': '100'}
+07/04/2017 03:56:23 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:56:23 PM Including body in call to sign: False
+07/04/2017 03:56:23 PM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'141889294656411011231499208983'), (u'oauth_timestamp', u'1499208983'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:56:23 PM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=141889294656411011231499208983&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208983&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:56:23 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:56:23 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D141889294656411011231499208983%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208983%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:56:23 PM Signature: AOnkat8PpSyaZFPJGQCA6dHp1io=
+07/04/2017 03:56:23 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/04/2017 03:56:23 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="141889294656411011231499208983", oauth_timestamp="1499208983", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="AOnkat8PpSyaZFPJGQCA6dHp1io%3D"'}
+07/04/2017 03:56:23 PM Updated body: None
+07/04/2017 03:56:23 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:56:23 PM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 502270
+07/04/2017 03:56:24 PM 127.0.0.1 - - [04/Jul/2017 15:56:24] "GET /delete?tid=773675704911179776&name=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:56:24 PM 127.0.0.1 - - [04/Jul/2017 15:56:24] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:56:24 PM 127.0.0.1 - - [04/Jul/2017 15:56:24] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:56:24 PM 127.0.0.1 - - [04/Jul/2017 15:56:24] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:56:24 PM 127.0.0.1 - - [04/Jul/2017 15:56:24] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:56:25 PM 127.0.0.1 - - [04/Jul/2017 15:56:25] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:56:25 PM 127.0.0.1 - - [04/Jul/2017 15:56:25] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/04/2017 03:56:32 PM PARAMS: {'id': '773675704911179776'}
+07/04/2017 03:56:32 PM Signing request <PreparedRequest [POST]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:56:32 PM Including body in call to sign: False
+07/04/2017 03:56:32 PM Collected params: [(u'oauth_nonce', u'26974149390460527411499208992'), (u'oauth_timestamp', u'1499208992'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:56:32 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=26974149390460527411499208992&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208992&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:56:32 PM Normalized URI: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:56:32 PM Base signing string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fdestroy%2F773675704911179776.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D26974149390460527411499208992%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208992%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:56:32 PM Signature: sTg3D+lG6MhGrbbajkALtDYlAB8=
+07/04/2017 03:56:32 PM Updated url: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:56:32 PM Updated headers: {u'Host': u'api.twitter.com', u'Content-Length': u'0', u'Authorization': u'OAuth oauth_nonce="26974149390460527411499208992", oauth_timestamp="1499208992", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="sTg3D%2BlG6MhGrbbajkALtDYlAB8%3D"'}
+07/04/2017 03:56:32 PM Updated body: None
+07/04/2017 03:56:32 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:56:32 PM *******************************
+
+07/04/2017 03:56:32 PM PARAMS: {'count': '100', 'id': 'kaykaychan'}
+07/04/2017 03:56:32 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:56:32 PM Including body in call to sign: False
+07/04/2017 03:56:32 PM Collected params: [(u'count', u'100'), (u'id', u'kaykaychan'), (u'oauth_nonce', u'139036591592984514981499208992'), (u'oauth_timestamp', u'1499208992'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:56:32 PM Normalized params: count=100&id=kaykaychan&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=139036591592984514981499208992&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208992&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:56:32 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:56:32 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dkaykaychan%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D139036591592984514981499208992%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208992%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:56:32 PM Signature: WTLIgwCqHDmuZ2lxVBMhzGaNKog=
+07/04/2017 03:56:32 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=kaykaychan
+07/04/2017 03:56:32 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="139036591592984514981499208992", oauth_timestamp="1499208992", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="WTLIgwCqHDmuZ2lxVBMhzGaNKog%3D"'}
+07/04/2017 03:56:32 PM Updated body: None
+07/04/2017 03:56:32 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:56:32 PM "GET /1.1/statuses/user_timeline.json?count=100&id=kaykaychan HTTP/1.1" 200 502270
+07/04/2017 03:56:33 PM 127.0.0.1 - - [04/Jul/2017 15:56:33] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 200 -
+07/04/2017 03:56:38 PM PARAMS: {'id': '773675704911179776'}
+07/04/2017 03:56:38 PM Signing request <PreparedRequest [POST]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:56:38 PM Including body in call to sign: False
+07/04/2017 03:56:38 PM Collected params: [(u'oauth_nonce', u'184237446872967479751499208998'), (u'oauth_timestamp', u'1499208998'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:56:38 PM Normalized params: oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=184237446872967479751499208998&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208998&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:56:38 PM Normalized URI: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:56:38 PM Base signing string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fdestroy%2F773675704911179776.json&oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D184237446872967479751499208998%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208998%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:56:38 PM Signature: SvHPLMUG2cNxzwAB9ju+ik/60e8=
+07/04/2017 03:56:38 PM Updated url: https://api.twitter.com/1.1/statuses/destroy/773675704911179776.json
+07/04/2017 03:56:38 PM Updated headers: {u'Host': u'api.twitter.com', u'Content-Length': u'0', u'Authorization': u'OAuth oauth_nonce="184237446872967479751499208998", oauth_timestamp="1499208998", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="SvHPLMUG2cNxzwAB9ju%2Bik%2F60e8%3D"'}
+07/04/2017 03:56:38 PM Updated body: None
+07/04/2017 03:56:38 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:56:38 PM "POST /1.1/statuses/destroy/773675704911179776.json HTTP/1.1" 404 67
+07/04/2017 03:56:38 PM *******************************
+
+07/04/2017 03:56:38 PM PARAMS: {'count': '100', 'id': 'kaykaychan'}
+07/04/2017 03:56:38 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:56:38 PM Including body in call to sign: False
+07/04/2017 03:56:38 PM Collected params: [(u'count', u'100'), (u'id', u'kaykaychan'), (u'oauth_nonce', u'76136495700291078841499208998'), (u'oauth_timestamp', u'1499208998'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:56:38 PM Normalized params: count=100&id=kaykaychan&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=76136495700291078841499208998&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499208998&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:56:38 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:56:38 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dkaykaychan%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D76136495700291078841499208998%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499208998%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:56:38 PM Signature: rtnH308faZO1Mw8X3Ooc0qxp0Bo=
+07/04/2017 03:56:38 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=kaykaychan
+07/04/2017 03:56:38 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="76136495700291078841499208998", oauth_timestamp="1499208998", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="rtnH308faZO1Mw8X3Ooc0qxp0Bo%3D"'}
+07/04/2017 03:56:38 PM Updated body: None
+07/04/2017 03:56:38 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:56:38 PM "GET /1.1/statuses/user_timeline.json?count=100&id=kaykaychan HTTP/1.1" 200 502270
+07/04/2017 03:56:39 PM 127.0.0.1 - - [04/Jul/2017 15:56:39] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 200 -
+07/04/2017 03:57:02 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:57:04 PM *******************************
+
+07/04/2017 03:57:04 PM PARAMS: {'count': '100', 'id': 'kaykaychan'}
+07/04/2017 03:57:04 PM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/04/2017 03:57:04 PM Including body in call to sign: False
+07/04/2017 03:57:04 PM Collected params: [(u'count', u'100'), (u'id', u'kaykaychan'), (u'oauth_nonce', u'35122693595386918801499209024'), (u'oauth_timestamp', u'1499209024'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/04/2017 03:57:04 PM Normalized params: count=100&id=kaykaychan&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=35122693595386918801499209024&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1499209024&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/04/2017 03:57:04 PM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/04/2017 03:57:04 PM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26id%3Dkaykaychan%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D35122693595386918801499209024%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499209024%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/04/2017 03:57:04 PM Signature: HzhIXuIVgi8/fGvWsYV5zaZw4bY=
+07/04/2017 03:57:04 PM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100&id=kaykaychan
+07/04/2017 03:57:04 PM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="35122693595386918801499209024", oauth_timestamp="1499209024", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="HzhIXuIVgi8%2FfGvWsYV5zaZw4bY%3D"'}
+07/04/2017 03:57:04 PM Updated body: None
+07/04/2017 03:57:04 PM Starting new HTTPS connection (1): api.twitter.com
+07/04/2017 03:57:05 PM "GET /1.1/statuses/user_timeline.json?count=100&id=kaykaychan HTTP/1.1" 200 501922
+07/04/2017 03:57:05 PM 127.0.0.1 - - [04/Jul/2017 15:57:05] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 200 -
+07/04/2017 03:57:18 PM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/04/2017 03:57:20 PM *******************************
+
+07/04/2017 03:57:20 PM 127.0.0.1 - - [04/Jul/2017 15:57:20] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/04/2017 03:57:20 PM 127.0.0.1 - - [04/Jul/2017 15:57:20] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/04/2017 03:57:20 PM 127.0.0.1 - - [04/Jul/2017 15:57:20] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/04/2017 03:57:20 PM 127.0.0.1 - - [04/Jul/2017 15:57:20] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/04/2017 03:57:21 PM 127.0.0.1 - - [04/Jul/2017 15:57:21] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/04/2017 03:57:21 PM 127.0.0.1 - - [04/Jul/2017 15:57:21] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/13/2017 09:54:24 PM *******************************
+
+07/13/2017 09:54:24 PM 127.0.0.1 - - [13/Jul/2017 21:54:24] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/13/2017 09:54:25 PM 127.0.0.1 - - [13/Jul/2017 21:54:25] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:27:38 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:28:01 AM *******************************
+
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:28:01 AM 127.0.0.1 - - [14/Jul/2017 00:28:01] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:35:11 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:38:51 AM *******************************
+
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:38:51 AM 127.0.0.1 - - [14/Jul/2017 00:38:51] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:40:00 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:42:31 AM *******************************
+
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:42:31 AM 127.0.0.1 - - [14/Jul/2017 00:42:31] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:42:52 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:42:57 AM *******************************
+
+07/14/2017 12:42:57 AM 127.0.0.1 - - [14/Jul/2017 00:42:57] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/14/2017 12:42:57 AM 127.0.0.1 - - [14/Jul/2017 00:42:57] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:42:57 AM 127.0.0.1 - - [14/Jul/2017 00:42:57] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:42:57 AM 127.0.0.1 - - [14/Jul/2017 00:42:57] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:42:58 AM 127.0.0.1 - - [14/Jul/2017 00:42:58] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:42:58 AM 127.0.0.1 - - [14/Jul/2017 00:42:58] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:42:58 AM 127.0.0.1 - - [14/Jul/2017 00:42:58] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:43:06 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:43:10 AM *******************************
+
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 500 -
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:43:10 AM 127.0.0.1 - - [14/Jul/2017 00:43:10] "GET /delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:43:17 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading
+07/14/2017 12:43:18 AM *******************************
+
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /delete?tid=773675704911179776&handle=kaykaychan HTTP/1.1" 302 -
+07/14/2017 12:43:18 AM PARAMS: {'count': '100'}
+07/14/2017 12:43:18 AM Signing request <PreparedRequest [GET]> using client <Client nonce=None, signature_method=HMAC-SHA1, realm=None, encoding=utf-8, timestamp=None, resource_owner_secret=****, decoding=None, verifier=None, signature_type=AUTH_HEADER, rsa_key=None, resource_owner_key=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9, client_secret=****, callback_uri=None, client_key=owfwHjASYkLP5nJiIoPvpWAed>
+07/14/2017 12:43:18 AM Including body in call to sign: False
+07/14/2017 12:43:18 AM Collected params: [(u'count', u'100'), (u'oauth_nonce', u'76697401060974050821500018198'), (u'oauth_timestamp', u'1500018198'), (u'oauth_consumer_key', u'owfwHjASYkLP5nJiIoPvpWAed'), (u'oauth_signature_method', u'HMAC-SHA1'), (u'oauth_version', u'1.0'), (u'oauth_token', u'45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9')]
+07/14/2017 12:43:18 AM Normalized params: count=100&oauth_consumer_key=owfwHjASYkLP5nJiIoPvpWAed&oauth_nonce=76697401060974050821500018198&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1500018198&oauth_token=45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9&oauth_version=1.0
+07/14/2017 12:43:18 AM Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+07/14/2017 12:43:18 AM Base signing string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&count%3D100%26oauth_consumer_key%3DowfwHjASYkLP5nJiIoPvpWAed%26oauth_nonce%3D76697401060974050821500018198%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1500018198%26oauth_token%3D45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9%26oauth_version%3D1.0
+07/14/2017 12:43:18 AM Signature: 5jTjHbQqQuR1YPJc8hdtlT6MNG4=
+07/14/2017 12:43:18 AM Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?count=100
+07/14/2017 12:43:18 AM Updated headers: {u'Host': u'api.twitter.com', u'Authorization': u'OAuth oauth_nonce="76697401060974050821500018198", oauth_timestamp="1500018198", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="owfwHjASYkLP5nJiIoPvpWAed", oauth_token="45286990-pejcLDaQ6oOZYNJdCSgzXjJVzaVn2XSRQKl1bjvI9", oauth_signature="5jTjHbQqQuR1YPJc8hdtlT6MNG4%3D"'}
+07/14/2017 12:43:18 AM Updated body: None
+07/14/2017 12:43:18 AM Starting new HTTPS connection (1): api.twitter.com
+07/14/2017 12:43:18 AM "GET /1.1/statuses/user_timeline.json?count=100 HTTP/1.1" 200 None
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /next HTTP/1.1" 500 -
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /next?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /next?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /next?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+07/14/2017 12:43:18 AM 127.0.0.1 - - [14/Jul/2017 00:43:18] "GET /next?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+07/14/2017 12:43:19 AM 127.0.0.1 - - [14/Jul/2017 00:43:19] "GET /next?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:43:19 AM 127.0.0.1 - - [14/Jul/2017 00:43:19] "GET /next?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+07/14/2017 12:44:17 AM  * Detected change in '/Users/karinachan/projects/flushtwitter/app.py', reloading

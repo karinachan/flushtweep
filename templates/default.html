@@ -21,13 +21,21 @@
   <h1>Hello! Here are some of your most recent tweets!</h1>
 {% endif %}
 
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
 
     {% for key, val in seq.iteritems() %}
       <!--  this might be a questionable move to make these forms...-->
-      <form>
-        <input type="button" name="{{ key }}" value="{{ val }}"><br>
+  
+      <a href="/delete?tid={{ key }}&handle={{ name }}"><input type="button" name="{{ key }}" value="{{ val }}"></a><br>
 
-      </form>
     {% endfor %}
 
 
